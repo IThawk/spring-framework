@@ -13,7 +13,7 @@ public class User implements Serializable {
 	}
 
 	public Long getId() {
-		return id;
+		return this.id;
 	}
 
 	public void setId(Long id) {
@@ -21,7 +21,7 @@ public class User implements Serializable {
 	}
 
 	public String getName() {
-		return name;
+		return this.name;
 	}
 
 	public void setName(String name) {
@@ -29,7 +29,7 @@ public class User implements Serializable {
 	}
 
 	public String getPassword() {
-		return password;
+		return this.password;
 	}
 
 	public void setPassword(String password) {
@@ -37,7 +37,7 @@ public class User implements Serializable {
 	}
 
 	public String getSalt() {
-		return salt;
+		return this.salt;
 	}
 
 	public void setSalt(String salt) {
@@ -45,7 +45,7 @@ public class User implements Serializable {
 	}
 
 	public String getEmail() {
-		return email;
+		return this.email;
 	}
 
 	public void setEmail(String email) {
@@ -53,7 +53,7 @@ public class User implements Serializable {
 	}
 
 	public String getPhoneNumber() {
-		return phoneNumber;
+		return this.phoneNumber;
 	}
 
 	public void setPhoneNumber(String phoneNumber) {
@@ -61,7 +61,7 @@ public class User implements Serializable {
 	}
 
 	public Integer getStatus() {
-		return status;
+		return this.status;
 	}
 
 	public void setStatus(Integer status) {
@@ -69,7 +69,7 @@ public class User implements Serializable {
 	}
 
 	public Date getCreateTime() {
-		return createTime;
+		return this.createTime;
 	}
 
 	public void setCreateTime(Date createTime) {
@@ -77,7 +77,7 @@ public class User implements Serializable {
 	}
 
 	public Date getLastLoginTime() {
-		return lastLoginTime;
+		return this.lastLoginTime;
 	}
 
 	public void setLastLoginTime(Date lastLoginTime) {
@@ -85,7 +85,7 @@ public class User implements Serializable {
 	}
 
 	public Date getLastUpdateTime() {
-		return lastUpdateTime;
+		return this.lastUpdateTime;
 	}
 
 	public void setLastUpdateTime(Date lastUpdateTime) {
